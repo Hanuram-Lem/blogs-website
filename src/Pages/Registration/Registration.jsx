@@ -7,11 +7,11 @@ function Registration() {
             justify-content-center">
                 <h1>Please Register</h1>
                 <div className="form-floating mb-3">
-                    <input type="text" className="form-control" id="floatingInput" placeholder="name@example.com" />
+                    <input type="text" className="form-control" id="floatingInput" placeholder="Hanuram Seeni" />
                     <label for="floatingInput">Name</label>
                 </div>
                 <div className="form-floating mb-3">
-                    <input type="tel" className="form-control" id="floatingInput" placeholder="name@example.com" />
+                    <input type="tel" className="form-control" id="floatingInput" placeholder="9876543210" />
                     <label for="floatingInput">Phone Number</label>
                 </div>
                 <div className="form-floating mb-3">
@@ -28,5 +28,6 @@ function Registration() {
     )
 
 }
+
 
 export default Registration;
